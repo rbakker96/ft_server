@@ -7,14 +7,16 @@ This is a System Administration subject. You will discover Docker and you will s
 
 ---
 
---------------------- Project summary ---------------------
+### Project summary
 
 This topic is intended to introduce you to system administration. It will make you aware
 of the importance of using scripts to automate your tasks. For that, you will discover
 the "docker" technology and use it to install a complete web server. This server will run
 multiples services: Wordpress, phpMyAdmin, and a SQL database.
 
---------------------- Technical considerations ---------------------
+---
+
+### Technical considerations
 
 • You must set up a web server with Nginx, in only one docker container. The container OS must be debian buster.
 
@@ -26,7 +28,9 @@ multiples services: Wordpress, phpMyAdmin, and a SQL database.
 
 • You will also need to make sure your server is running with an autoindex that must be able to be disabled.
 
---------------------- Used resources ---------------------
+---
+
+### Used resources
 
 • Docker documentation - https://docs.docker.com/get-started/overview/
 
