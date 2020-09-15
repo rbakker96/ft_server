@@ -3,20 +3,17 @@
 </p>
 
 # ft_server 
-***This is a System Administration subject. You will discover Docker and you will set up your first web server.***
+***This is a System Administration subject. This project is designed to discover Docker and set up my first web server.***
 
 ---
 
 ### Project summary
-
-This topic is intended to introduce you to system administration. It will make you aware
-of the importance of using scripts to automate your tasks. For that, you will discover
-the "docker" technology and use it to install a complete web server. This server will run
-multiples services: Wordpress, phpMyAdmin, and a SQL database.
+This project intended to get introduced to system administration. Learning points are to get aware of the importance of using scripts to automate tasks. In this case, the "docker" technology is used. During this project, a complete web server is the end goal. This server will run multiples services: Wordpress, phpMyAdmin, and a SQL-database.
 
 ---
 
 ### Technical considerations
+> The project is demanded to comply with the following rules/functionalities.
 
 - You must set up a web server with Nginx, in only one docker container. The container OS must be debian buster.
 - Your web server must be able to run several services at the same time. The services will be a WordPress website, phpMyAdmin and MySQL. You will need to make sure your SQL database works with the WordPress and phpMyAdmin.
