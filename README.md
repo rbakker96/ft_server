@@ -8,7 +8,7 @@
 ---
 
 ### Project summary
-> Third-ring Codam project
+> 3th ring Codam project
 
 This project intended to get introduced to system administration. Learning points are to get aware of the importance of using scripts to automate tasks. In this case, the "docker" technology is used. During this project, a complete web server is the end goal. This server will run multiples services: Wordpress, phpMyAdmin, and a SQL-database.
 
@@ -23,6 +23,31 @@ This project intended to get introduced to system administration. Learning point
 - You will have to make sure that, depending on the url, your server redirects to the correct website.
 - You will also need to make sure your server is running with an autoindex that must be able to be disabled.
 
+---
+
+### Usage
+> Run the following commands in the terminal
+
+```shell
+$ git clone https://github.com/rbakker96/ft_server.git 
+$ cd <folder name>
+$ docker build -t ft_server .
+$ docker run -it -p 80:80 -p 443:443 ft_server
+```
+
+> Wordpress can be reached with
+
+```shell
+'https://localhost'
+```
+
+> Phpmyadmin can be reached with
+
+```shell
+'https://localhost/phpmyadmin/index.php'
+username = admin
+password = admin
+```
 ---
 
 ### Used resources
