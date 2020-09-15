@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="https://github.com/rbakker96/images/blob/master/codam_logo.png">
+</p>
+
 # ft_server 
-> This is a System Administration subject. You will discover Docker and you will set up your first web server.
+This is a System Administration subject. You will discover Docker and you will set up your first web server.
 
 ---
 
