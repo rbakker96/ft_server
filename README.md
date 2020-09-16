@@ -8,7 +8,7 @@
 ---
 
 ### Project summary
-> 3th ring Codam project
+> 1th ring Codam project
 
 This project intended to get introduced to system administration. Learning points are to get aware of the importance of using scripts to automate tasks. In this case, the "docker" technology is used. During this project, a complete web server is the end goal. This server will run multiples services: Wordpress, phpMyAdmin, and a SQL-database.
 
