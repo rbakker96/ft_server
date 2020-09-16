@@ -44,7 +44,7 @@ $ docker run -it -p 80:80 -p 443:443 ft_server
 > Phpmyadmin can be reached with
 
 ```shell
-'https://localhost/phpmyadmin/index.php'
+'https://localhost/phpmyadmin'
 username = admin
 password = admin
 ```
