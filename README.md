@@ -29,8 +29,8 @@ This project intended to get introduced to system administration. Learning point
 > Run the following commands in the terminal
 
 ```shell
-$ git clone https://github.com/rbakker96/ft_server.git 
-$ cd <folder name>
+$ git clone https://github.com/rbakker96/ft_server.git ft_server
+$ cd ft_server
 $ docker build -t ft_server .
 $ docker run -it -p 80:80 -p 443:443 ft_server
 ```
